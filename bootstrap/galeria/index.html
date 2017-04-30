@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Galeria de Imagens com Bootstrap</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--
+      É importante colocar os arquivos de css externos antes dos específicos do seu website
+      para que os seus estilos não sejam sobreescritos.
+    -->
+    <link rel="stylesheet" href="galeria.css">
+  </head>
+  <body>
+
+    <!--
+      Navegação com Navbar Bootstrap
+    -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> Fotos</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- Fim da Navegação -->
+
+    <!-- Jumbotron Bootstrap -->
+    <div class="container">
+      <div class="jumbotron">
+        <h1><i class="fa fa-camera-retro"></i> Galeria de Fotos</h1>
+        <p>Fotos tiradas por mim!</p>
+    </div>
+
+    <!-- Imagens Exibidas no Website -->
+
+    <!-- Primeira Coluna -->
+    <div class="row">
+      <!-- Imagem 1 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/D5U1ZQURN0.jpg" alt="Mão">
+        </div>
+      </div>
+
+      <!-- Imagem 2 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/PO0O0TFL8E.jpg" alt="Árvores">
+        </div>
+      </div>
+
+      <!-- Imagem 3 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/E6KI044VUB.jpg" alt="Mesa">
+        </div>
+      </div>
+
+      <!-- Imagem 4 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/0CVH25YOXF.jpg" alt="Noite">
+        </div>
+      </div>
+
+      <!-- Imagem 5 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/8Y0EDX4VP9.jpg" alt="Escrita">
+        </div>
+      </div>
+
+      <!-- Imagem 6 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/CWYK8CLC61.jpg" alt="Código">
+        </div>
+      </div>
+
+      <!-- Imagem 7 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/BKC8Y8VF8K.jpg" alt="Luz">
+        </div>
+      </div>
+
+      <!-- Imagem 8 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/1C1A9389B4.jpg" alt="Spark">
+        </div>
+      </div>
+
+      <!-- Imagem 9 -->
+      <div class="gallery-img col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/C332PCV8D0.jpg" alt="Branco">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Inclusão de scripts javascript para que a navegação possa entrar em "collapse" -->
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
