@@ -188,37 +188,37 @@ MEDIA QUERIES
         flex-direction: row;
         justify-content: space-around;
     }
-    
+
     nav ul {
         flex-direction: row;
         width: 70%;
     }
-    
+
     /*
     CABEÇALHO
     */
-    
+
     header {
         height: 600px;
         height: 60vh;
         justify-content: center;
     }
-    
+
     /*
     SOBRE
     */
-    
+
     #sobre {
         height: 250px;
         height: 30vh;
         justify-content: center;
         min-height: 250px;
     }
-    
+
     /*
     SERVIÇOS
     */
-    
+
     #servicos {
         flex-direction: row;
         flex-wrap: wrap;
@@ -226,40 +226,40 @@ MEDIA QUERIES
         max-width: 1000px;
         margin: 0 auto;
     }
-    
+
     #servicos h2 {
         text-align: center;
         width: 100%;
     }
-    
+
     #servicos div {
         flex-grow: 1;
         flex-basis: 150px;
         padding: 0 10px;
     }
-    
+
     /*
     PORTFOLIO
     */
-    
+
     #portfolio {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+
     #portfolio h2 {
         width: 100%;
         text-align: center;
     }
-    
+
     #portfolio img {
         width: 33.3333333333%;
     }
-    
+
     /*
     CONTATO
     */
-    
+
     #contato {
         flex-direction: row;
         flex-wrap: wrap;
@@ -267,22 +267,11 @@ MEDIA QUERIES
         max-width: 500px;
         margin: 0 auto;
     }
-    
+
     #contato h2,
     #contato p {
         width: 100%;
     }
-    
-    
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
