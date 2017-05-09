@@ -47,3 +47,20 @@ Repositório com informações, materiais e códigos relativos ao Minicurso Web 
 [Galeira de Imagens](https://comppet.github.io/minicursoFrontend/galeria/) - Galeria de Imagens feita com Bootstrap.
 
 **OBS:** Todos os códigos referentes aos projetos do minicurso estão nesse repositório.
+
+## Onde Aprender Mais
+
+### Gratuitos
+
+[FreeCodeCamp](https://www.freecodecamp.com)
+
+[Codecademy](https://www.codecademy.com)
+
+### Pagos
+
+[Code School](https://www.codeschool.com) - $29 Mensal
+
+[Udemy](https://www.udemy.com/courses/) - Cursos de preços que variam de R$100,00 a R$600,00, mas acontecem muitas promoções de mais de 90% de desconto onde cursos de alta qualidade podem ser comprados por R$25,00
+
+[Team Treehouse](https://teamtreehouse.com) - $9 Mensal para estudantes
+
