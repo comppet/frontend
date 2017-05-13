@@ -56,6 +56,8 @@ Repositório com informações, materiais e códigos relativos ao Minicurso Web 
 
 [Codecademy](https://www.codecademy.com)
 
+[Aprenda HTML e CSS - Stevan Maito](https://www.youtube.com/watch?v=014fy8sGPto&list=PLB7wuPF7rlckDdLVxueGuQIpI_3Nl2pCt)
+
 ### Pagos
 
 [Code School](https://www.codeschool.com) - $29 Mensal
